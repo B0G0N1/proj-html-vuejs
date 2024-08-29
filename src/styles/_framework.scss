@@ -37,13 +37,8 @@ h6 {
 }
 
 a {
-	color: #007bff;
+	color: inherit;
 	text-decoration: none;
-
-	&:hover {
-		color: #0056b3;
-		text-decoration: underline;
-	}
 }
 
 strong {

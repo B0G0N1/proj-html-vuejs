@@ -1,18 +1,18 @@
 <script>
 import TopHeader from './TopHeader.vue';
-import BottomHeader from './BottomHeader.vue';
+import MainHeader from './MainHeader.vue';
 
 export default {
     components: {
         TopHeader,
-        BottomHeader
+        MainHeader
     }
 }
 </script>
 
 <template>
     <TopHeader/>
-    <BottomHeader/>
+    <MainHeader/>
 </template>
 
 <style lang="scss">

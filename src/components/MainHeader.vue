@@ -1,0 +1,56 @@
+<script>
+export default {
+    data() {
+        return {
+            menuItems: [
+                { label: "Home", link: "#", isActive: true },
+                { label: "About", link: "#", isActive: false },
+                { label: "Services", link: "#", isActive: false },
+                { label: "Training", link: "#", isActive: false },
+                { label: "Blogs", link: "#", isActive: false }
+            ]
+        }
+    }
+}
+</script>
+
+<template>
+    <div id="MainHeader">
+        <div class="container d-flex justify-content-between py-3">
+            <div>
+                <img src="../assets/img/logo.png" alt="logo">
+            </div>
+            <div class="d-flex align-items-center gap-4">
+                <ul class="d-flex gap-4">
+                    <li v-for="item in menuItems" :key="item.label" :style="{ color: item.isActive ? 'orange' : 'gray' }">
+                        <a :href="item.link || '#'">{{ item.label }}</a>
+                    </li>                                       
+                </ul>
+                <button>Get in Toch!</button>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style lang="scss">
+    #MainHeader {
+        ul {
+            list-style-type: none;
+
+            a {
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+        }
+
+        button {
+            color: white;
+            background-color: #cd7c2d;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 12px 20px;
+            border-radius: 25px;
+            border: none;
+        }
+    }
+</style>
