@@ -1,13 +1,18 @@
 <script>
+import TopHeader from './TopHeader.vue';
+import BottomHeader from './BottomHeader.vue';
+
 export default {
-    
+    components: {
+        TopHeader,
+        BottomHeader
+    }
 }
 </script>
 
 <template>
-    <div>
-        <h2>AppHeader</h2>
-    </div>
+    <TopHeader/>
+    <BottomHeader/>
 </template>
 
 <style lang="scss">

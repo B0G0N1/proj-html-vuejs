@@ -1,13 +1,18 @@
 <script>
-export default {
+import Newsletter from './Newsletter.vue';
+import MainFooter from './MainFooter.vue';
 
+export default {
+    components: {
+        Newsletter,
+        MainFooter
+    }
 }
 </script>
 
 <template>
-    <div>
-        <h2>AppFooter</h2>
-    </div>
+    <Newsletter/>
+    <MainFooter/>
 </template>
 
 <style lang="scss">
