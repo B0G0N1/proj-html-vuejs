@@ -34,6 +34,6 @@ src/
 1.  Pianifico la suddivisione del progetto (macro struttura) e mi faccio un idea generale su come programmarlo
 2.  Preparo il progetto (divisione delle components, installazzione delle dipendenze, aggiunta risorse/scss)
 3.  Creo un Framework Basico (al posto di Bootstrap)
-4.  Creo l'AppHeader.vue
+4.  Creo il TopHeader.vue
 
 <!-- Da completare -->
