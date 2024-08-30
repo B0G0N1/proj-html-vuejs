@@ -37,5 +37,6 @@ src/
 4.  Creo il TopHeader.vue
 5.  Creo il MainHeader.vue
 6.  Creo HeroSection.vue
+7.  Creo AboutSection.vue
 
 <!-- Da completare -->
