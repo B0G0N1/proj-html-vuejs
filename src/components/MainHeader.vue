@@ -16,10 +16,8 @@ export default {
 
 <template>
     <div id="MainHeader">
-        <div class="container d-flex justify-content-between py-3">
-            <div>
-                <img src="../assets/img/logo.png" alt="logo">
-            </div>
+        <div class="container d-flex justify-content-between py-1">
+            <img src="../assets/img/logo.png" alt="logo" class="py-2">
             <div class="d-flex align-items-center gap-4">
                 <ul class="d-flex gap-4">
                     <li v-for="item in menuItems" :key="item.label" :style="{ color: item.isActive ? 'orange' : 'gray' }">
@@ -32,7 +30,7 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
     #MainHeader {
         ul {
             list-style-type: none;

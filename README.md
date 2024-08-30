@@ -36,5 +36,6 @@ src/
 3.  Creo un Framework Basico (al posto di Bootstrap)
 4.  Creo il TopHeader.vue
 5.  Creo il MainHeader.vue
+6.  Creo HeroSection.vue
 
 <!-- Da completare -->

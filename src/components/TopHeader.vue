@@ -36,7 +36,7 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
     #TopHeader {
         background-color: #7f7045;
 
@@ -49,7 +49,7 @@ export default {
                 color: white;
             }
             div {
-                padding: 1px 4px;
+                padding: 1px 5px;
                 border-radius: 5px;
             }
         }

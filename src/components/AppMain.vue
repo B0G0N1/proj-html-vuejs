@@ -17,13 +17,13 @@ export default {
 </script>
 
 <template>
-    <HeroSection class="mt-5"/>
+    <HeroSection/>
     <AboutSection/>
     <ServicesSection/>
     <WhyChooseUsSection/>
     <TestimonialsSection class="mb-5"/>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>
