@@ -13,7 +13,7 @@ export default {
                 </div>
                 <div class="col-6 py-5 d-flex flex-column justify-content-center">
                     <div class="d-flex align-items-center gap-3">
-                        <img src="../assets/img/dog-icon.png" alt="">
+                        <img src="/dog-icon.png" alt="">
                         <span>About Us</span>
                     </div>
                     <h4 class="my-3">Welcome DogMilo Pets</h4>

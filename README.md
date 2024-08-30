@@ -20,6 +20,7 @@ src/
 | | |-- HeroSection.vue
 | | |-- AboutSection.vue
 | | |-- ServicesSection.vue
+| | | |-- ServiceCard.vue
 | | |-- WhyChooseUsSection.vue
 | | |-- TestimonialsSection.vue
 | |-- AppFooter.vue
@@ -34,9 +35,14 @@ src/
 1.  Pianifico la suddivisione del progetto (macro struttura) e mi faccio un idea generale su come programmarlo
 2.  Preparo il progetto (divisione delle components, installazzione delle dipendenze, aggiunta risorse/scss)
 3.  Creo un Framework Basico (al posto di Bootstrap)
+
 4.  Creo il TopHeader.vue
 5.  Creo il MainHeader.vue
+
 6.  Creo HeroSection.vue
 7.  Creo AboutSection.vue
+
+8.  Creo ServiceSection.vue
+9.  Creo ServiceCard.vue
 
 <!-- Da completare -->
