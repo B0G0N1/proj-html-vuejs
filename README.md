@@ -45,4 +45,6 @@ src/
 8.  Creo ServiceSection.vue
 9.  Creo ServiceCard.vue
 
+10. Creo WhyChooseUsSection.vue
+
 <!-- Da completare -->
