@@ -12,7 +12,7 @@ export default {
                 </div>
                 <div class="col-6 p-3">
                     <div class="d-flex align-items-center gap-3">
-                        <img src="/dog-icon.png" alt="dog-icon">
+                        <img src="../assets/img/dog-icon.png" alt="dog-icon">
                         <span>About Us</span>
                     </div>
                     <p class="my-3">Why Choose Us ?</p>

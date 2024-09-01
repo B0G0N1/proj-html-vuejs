@@ -8,11 +8,11 @@ export default {
     data() {
         return {
             servicesList: [
-                { title: 'Pet Sitting', imagePath: '/d-1.png' },
-                { title: 'Puppy Sitting', imagePath: '/d-2.png' },
-                { title: 'Dog Walking', imagePath: '/d-3.png' },
-                { title: 'Night Care', imagePath: '/d-4.png' },
-                { title: 'Pet Sitting', imagePath: '/d-5.png' }
+                { title: 'Pet Sitting', imagePath: '/src/assets/img/d-1.png' },
+                { title: 'Puppy Sitting', imagePath: '/src/assets/img/d-2.png' },
+                { title: 'Dog Walking', imagePath: '/src/assets/img/d-3.png' },
+                { title: 'Night Care', imagePath: '/src/assets/img/d-4.png' },
+                { title: 'Pet Sitting', imagePath: '/src/assets/img/d-5.png' }
             ]
         }
     }

@@ -47,4 +47,7 @@ src/
 
 10. Creo WhyChooseUsSection.vue
 
+11. Creo TestimonialsSection.vue
+12. Creo TestimonialCard.vue
+
 <!-- Da completare -->
