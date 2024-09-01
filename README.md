@@ -50,4 +50,6 @@ src/
 11. Creo TestimonialsSection.vue
 12. Creo TestimonialCard.vue
 
+13. Creo MainFooter.vue
+
 <!-- Da completare -->
