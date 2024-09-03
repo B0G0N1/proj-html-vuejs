@@ -59,4 +59,6 @@ src/
 14. Creo BottomFooter.vue
 15. Creo Newsletter.vue
 
+16. Finisco alcune sezioni
+
 <!-- Da completare -->

@@ -15,15 +15,15 @@ export default {
 
 <template>
     <div id="serviceCard">
-        <div class="top-semicircle d-flex justify-content-center align-items-center">
-            <img :src="imagePath" :alt="title" class="service-image" />
+        <div class="top-semicircle d-flex-center">
+            <img :src="imagePath" :alt="title" class="service-image"/>
         </div>
-        <div class="square">
-            <h3>{{ title }}</h3>
+        <div class="square pt-2">
+            <h3 class="pb-2">{{ title }}</h3>
             <p>The readable content <br>of a page when <br>looking at its layout.</p>
         </div>
-        <div class="bottom-semicircle d-flex justify-content-center align-items-center">
-            <div class="circle d-flex justify-content-center align-items-center">
+        <div class="bottom-semicircle d-flex-center">
+            <div class="circle d-flex-center">
                 <img src="../assets/img/right.png" alt="right-arrow">
             </div>
         </div>
@@ -35,43 +35,39 @@ export default {
         width: 200px;
 
         .square {
-            background-color: orange;
+            background-color: #ce7c2a;
             color: white;
         }
 
         .top-semicircle {
-            height: 150px;
-            background-color: orange;
-            border-top-left-radius: 100%;
-            border-top-right-radius: 100%;
+            height: 100px;
+            background-color: #ce7c2a;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
 
             img {
-                width: 100px;
-                height: 100px;
+                width: 80px;
+                height: 80px;
             }
         }
 
         .bottom-semicircle {
-            height: 150px;
-            background-color: orange;
-            border-bottom-left-radius: 100%;
-            border-bottom-right-radius: 100%;
+            height: 100px;
+            background-color: #ce7c2a;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
 
             .circle {
-                background-color: #fecc02;
+                background-color: #ffcd01;
                 border-radius: 50%;
-                padding: 20px;
+                padding: 10px;
                 
                 img {
-                    width: 30px;
-                    height: 30px;
+                    width: 25px;
+                    height: 25px;
                 }
             }
 
         }
-    }
-
-    * {
-        border: 1px dashed red;
     }
 </style>

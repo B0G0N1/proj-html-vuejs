@@ -51,7 +51,7 @@ export default {
     #TestimonialsSection {
         display: flex;
         justify-content: center;
-        padding-bottom: 9rem;
+        padding-bottom: 8rem;
 
         .about-us {
             height: 300px;

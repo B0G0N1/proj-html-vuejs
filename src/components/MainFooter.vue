@@ -75,7 +75,7 @@ export default {
     #MainFooter {
         position: relative;
         background-color: black;
-        padding-top: 4rem;
+        padding-top: 5rem;
 
         h3 {
             color: orange;
