@@ -32,8 +32,8 @@ export default {
 
 <template>
     <div id="TestimonialsSection">
-        <div class="container d-flex justify-content-evenly px-3">
-            <div class="temp">
+        <div class="container d-flex justify-content-evenly py-5">
+            <div class="about-us">
                 <div class="d-flex align-items-center gap-2">
                     <img src="../assets/img/dog-icon.png" alt="">
                     <span>About Us</span>
@@ -51,9 +51,9 @@ export default {
     #TestimonialsSection {
         display: flex;
         justify-content: center;
-        padding: 40px 0;
+        padding-bottom: 9rem;
 
-        .temp {
+        .about-us {
             height: 300px;
             width: 300px;
             padding: 20px;

@@ -1,18 +1,18 @@
 <script>
-import Newsletter from './Newsletter.vue';
 import MainFooter from './MainFooter.vue';
+import BottomFooter from './BottomFooter.vue';
 
 export default {
     components: {
-        Newsletter,
-        MainFooter
+        MainFooter,
+        BottomFooter
     }
 }
 </script>
 
 <template>
-    <Newsletter/>
     <MainFooter/>
+    <BottomFooter/>
 </template>
 
 <style lang="scss" scoped>

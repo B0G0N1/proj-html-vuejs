@@ -1,4 +1,6 @@
 <script>
+import Newsletter from './Newsletter.vue'
+
 export default {
     data() {
         return {
@@ -24,13 +26,17 @@ export default {
                 { faClass: 'fa-brands fa-instagram', bgColor: '#ac20ad' }
             ]
         }
+    },
+    components: {
+        Newsletter
     }
 }
 </script>
 
 <template>
-    <div id="MainFooter" class="pt-5">
-        <div class="container p-5 d-flex justify-content-between mt-5">
+    <div id="MainFooter">
+        <Newsletter/>
+        <div class="container d-flex justify-content-between py-5">
             <div>
                 <h3>Get in Touch</h3>
                 <p class="my-4">Have a Question for us? <br>we'll answer your problem here</p>
@@ -67,7 +73,9 @@ export default {
 
 <style lang="scss" scoped>
     #MainFooter {
+        position: relative;
         background-color: black;
+        padding-top: 4rem;
 
         h3 {
             color: orange;
@@ -86,9 +94,5 @@ export default {
                 border-radius: 5px;
             }
         }
-    }
-
-    * {
-        border: 1px dashed red;
     }
 </style>

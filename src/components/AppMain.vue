@@ -21,7 +21,7 @@ export default {
     <AboutSection/>
     <ServicesSection/>
     <WhyChooseUsSection/>
-    <TestimonialsSection class="mb-5"/>
+    <TestimonialsSection/>
 </template>
 
 <style lang="scss" scoped>

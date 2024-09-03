@@ -23,9 +23,11 @@ src/
 | | | |-- ServiceCard.vue
 | | |-- WhyChooseUsSection.vue
 | | |-- TestimonialsSection.vue
+| | | |--TestimonialCard.vue
 | |-- AppFooter.vue
 | | |-- MainFooter.vue
-| | |-- Newsletter.vue
+| | | |-- Newsletter.vue
+| | |-- BottomFooter.vue
 |-- App.vue
 
 <!--------------------------
@@ -33,8 +35,10 @@ src/
 --------------------------->
 
 1.  Pianifico la suddivisione del progetto (macro struttura) e mi faccio un idea generale su come programmarlo
+
 2.  Preparo il progetto (divisione delle components, installazzione delle dipendenze, aggiunta risorse/scss)
-3.  Creo un Framework Basico (al posto di Bootstrap)
+
+3.  Creo un mio Custom Framework (al posto di Bootstrap)
 
 4.  Creo il TopHeader.vue
 5.  Creo il MainHeader.vue
@@ -51,5 +55,8 @@ src/
 12. Creo TestimonialCard.vue
 
 13. Creo MainFooter.vue
+
+14. Creo BottomFooter.vue
+15. Creo Newsletter.vue
 
 <!-- Da completare -->
