@@ -37,7 +37,7 @@ export default {
         &:hover .square,
         &:hover .top-semicircle,
         &:hover .bottom-semicircle {
-            background-color: $color-brown;
+            background-color: #7f7045;
         }
 
         .square {

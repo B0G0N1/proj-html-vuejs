@@ -19,7 +19,7 @@ export default {
         <div class="container py-5">
             <div class="d-flex justify-content-between">
                 <div class="about-us">
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center gap-3">
                         <img src="../assets/img/dog-icon.png" alt="">
                         <span>About Us</span>
                     </div>

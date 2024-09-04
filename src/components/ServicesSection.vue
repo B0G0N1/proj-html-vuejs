@@ -33,7 +33,7 @@ export default {
             url('../assets/img/dog-left.png'),
             url('../assets/img/dog-logo.png');
         background-position: top 20px left 0, top 20px right 0;
-        background-size: 15% auto, 15% auto;
+        background-size: 10% auto, 10% auto;
         background-repeat: no-repeat;
 
         p {
