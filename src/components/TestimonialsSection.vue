@@ -32,17 +32,27 @@ export default {
 
 <template>
     <div id="TestimonialsSection">
-        <div class="container d-flex justify-content-evenly py-5">
-            <div class="about-us">
-                <div class="d-flex align-items-center gap-2">
-                    <img src="../assets/img/dog-icon.png" alt="">
-                    <span>About Us</span>
+        <div class="container py-5">
+            <div class="d-flex justify-content-between">
+                <div class="about-us">
+                    <div class="d-flex align-items-center">
+                        <img src="../assets/img/dog-icon.png" alt="">
+                        <span>About Us</span>
+                    </div>
+                    <p class="fs-5 fw-medium my-3">Over 8000 Customers <br>With 5-Star Review</p>
+                    <p class="review mb-3">It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout.</p>
+                    <span class="star" v-for="n in 5" :key="'star' + n">&#9733;</span>
                 </div>
-                <p class="fs-5 fw-medium my-3">Over 8000 Customers <br>With 5-Star Review</p>
-                <p class="review mb-3">It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout.</p>
-                <span class="star" v-for="n in 5" :key="'star' + n">&#9733;</span>
+                <TestimonialCard v-for="testimonial in testimonialsList" :key="testimonial.name" :testimonial="testimonial"/>
             </div>
-            <TestimonialCard v-for="testimonial in testimonialsList" :key="testimonial.name" :testimonial="testimonial"/>
+            <div class="d-flex justify-content-end mt-4 gap-2">
+                <div class="square py-2 px-3">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="square py-2 px-3">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -63,15 +73,24 @@ export default {
                 height: 25px;
                 width: 25px;
             }
+
+            .star {
+                color: #f5c518;
+            }
+    
+            .review {
+                font-size: 1em;
+                color: #666;
+            }
         }
 
-        .star {
-            color: #f5c518;
-        }
+        .square {
+            background-color: #ce7b2c;
+            color: white;
 
-        .review {
-            font-size: 1em;
-            color: #666;
+            &:hover {
+                background-color: #7f7047;
+            }
         }
     }
 </style>

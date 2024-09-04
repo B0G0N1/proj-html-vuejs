@@ -20,7 +20,7 @@ export default {
             <img src="../assets/img/logo.png" alt="logo" class="py-2">
             <div class="d-flex align-items-center gap-4">
                 <ul class="d-flex gap-4">
-                    <li v-for="item in menuItems" :key="item.label" :style="{ color: item.isActive ? 'orange' : 'gray' }">
+                    <li v-for="item in menuItems" :key="item.label">
                         <a :href="item.link || '#'">{{ item.label }}</a>
                     </li>                                       
                 </ul>
@@ -34,6 +34,14 @@ export default {
     #MainHeader {
         ul {
             list-style-type: none;
+
+            li {
+                color: gray;
+
+                &:hover {
+                    color: orange;
+                }
+            }
 
             a {
                 font-size: 1.1rem;
@@ -49,6 +57,10 @@ export default {
             padding: 12px 20px;
             border-radius: 25px;
             border: none;
+
+            &:hover {
+                background-color: #173b65;
+            }
         }
     }
 </style>

@@ -61,4 +61,6 @@ src/
 
 16. Finisco alcune sezioni
 
+17. Aggiungo effetti Hover
+
 <!-- Da completare -->

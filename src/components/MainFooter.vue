@@ -79,6 +79,7 @@ export default {
 
         h3 {
             color: orange;
+            margin-bottom: 1rem;
         }
 
         p, span, li {

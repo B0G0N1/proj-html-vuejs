@@ -34,9 +34,15 @@ export default {
     #serviceCard {
         width: 200px;
 
+        &:hover .square,
+        &:hover .top-semicircle,
+        &:hover .bottom-semicircle {
+            background-color: #7f7045;
+        }
+
         .square {
-            background-color: #ce7c2a;
             color: white;
+            background-color: #ce7c2a;
         }
 
         .top-semicircle {
@@ -67,7 +73,6 @@ export default {
                     height: 25px;
                 }
             }
-
         }
     }
 </style>
