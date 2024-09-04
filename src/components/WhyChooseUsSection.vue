@@ -1,12 +1,9 @@
 <script>
 export default {
-    data() {
-        return {
-            whyList: [
-                { title: "Safety First", image: "/src/assets/img/w-3.png", spaceCol: "0", textCol: "9" },
-                { title: "Play Yards", image: "/src/assets/img/w-2.png", spaceCol: "2", textCol: "8" },
-                { title: "Monitor Your Pets", image: "/src/assets/img/w-1.png", spaceCol: "4", textCol: "6" }
-            ]
+    props: {
+        whyList: {
+            type: Array,
+            required: true
         }
     }
 }
@@ -24,7 +21,6 @@ export default {
                         <span>About Us</span>
                     </div>
                     <p class="my-3">Why Choose Us ?</p>
-                    <!-- TEST -->
                     <div v-for="reason in whyList" :key="reason.title" class="row">
                         <div :class="'col-' + reason.spaceCol"></div>
                         <div class="col-2 d-flex">

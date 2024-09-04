@@ -2,33 +2,18 @@
 import Newsletter from './Newsletter.vue'
 
 export default {
-    data() {
-        return {
-            menuItems: [
-                {
-                    title: "Support",
-                    elements: ["Contact Us", "Online Chat", "Whatsapp", "Telegram", "Snapchat"]
-                },
-                {
-                    title: "About",
-                    elements: ["About Us", "Blog", "Career", "Job", "In press"]
-                },
-                {
-                    title: "Faq",
-                    elements: ["Account", "Order", "Delivery", "Payment", "Return"]
-                }
-            ],
-            socialIcons: [
-                { faClass: 'fa-brands fa-square-facebook', bgColor: '#313eb1' },
-                { faClass: 'fa-brands fa-pinterest-p', bgColor: 'red' },
-                { faClass: 'fa-brands fa-twitter', bgColor: '#81ced0' },
-                { faClass: 'fa-brands fa-linkedin-in', bgColor: '#0b61cf' },
-                { faClass: 'fa-brands fa-instagram', bgColor: '#ac20ad' }
-            ]
-        }
-    },
     components: {
         Newsletter
+    },
+        props: {
+        menuItems: {
+            type: Array,
+            required: true
+        },
+        socialIcons: {
+            type: Array,
+            required: true
+        }
     }
 }
 </script>

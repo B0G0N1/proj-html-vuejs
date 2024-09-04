@@ -1,14 +1,9 @@
 <script>
 export default {
-    data() {
-        return {
-            menuItems: [
-                { label: "Home", link: "#", isActive: true },
-                { label: "About", link: "#", isActive: false },
-                { label: "Services", link: "#", isActive: false },
-                { label: "Training", link: "#", isActive: false },
-                { label: "Blogs", link: "#", isActive: false }
-            ]
+    props: {
+        menuItems: {
+            type: Array,
+            required: true
         }
     }
 }
@@ -21,7 +16,7 @@ export default {
             <div class="d-flex align-items-center gap-4">
                 <ul class="d-flex gap-4">
                     <li v-for="item in menuItems" :key="item.label">
-                        <a :href="item.link || '#'">{{ item.label }}</a>
+                        <a :href="item.link">{{ item.label }}</a>
                     </li>                                       
                 </ul>
                 <button>Get in Toch!</button>

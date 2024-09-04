@@ -9,7 +9,7 @@ export default {
         <div class="container py-5">
             <p><strong>Welcome to</strong><br> DogMilo <strong>Pets</strong></p>
             <p class="my-2">Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.</p>
-            <div class="d-flex gap-2 mt-3">
+            <div class="d-flex align-items-center gap-2 mt-3">
                 <button>Get Started</button>
                 <img src="../assets/img/play.png" alt="play">
             </div>
@@ -24,6 +24,7 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         color: white;
+        padding: 4rem 0;
 
         h4 {
             font-size: 2rem;

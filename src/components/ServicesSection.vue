@@ -5,15 +5,10 @@ export default {
     components: {
         ServiceCard
     },
-    data() {
-        return {
-            servicesList: [
-                { title: 'Pet Sitting', imagePath: '/src/assets/img/d-1.png' },
-                { title: 'Puppy Sitting', imagePath: '/src/assets/img/d-2.png' },
-                { title: 'Dog Walking', imagePath: '/src/assets/img/d-3.png' },
-                { title: 'Night Care', imagePath: '/src/assets/img/d-4.png' },
-                { title: 'Pet Sitting', imagePath: '/src/assets/img/d-5.png' }
-            ]
+    props: {
+        servicesList: {
+            type: Array,
+            required: true
         }
     }
 }

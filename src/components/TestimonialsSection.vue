@@ -5,26 +5,10 @@ export default {
     components: {
         TestimonialCard
     },
-    data() {
-        return {
-            testimonialsList: [
-                {
-                    rating: 5,
-                    name: "Tobias May",
-                    profession: "UI/UX Designer",
-                    review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when...",
-                    title: "Great Place",
-                    image: "/src/assets/img/t1.png"
-                },
-                {
-                    rating: 5,
-                    name: "Tobias May",
-                    profession: "UI/UX Designer",
-                    review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when...",
-                    title: "Great Place",
-                    image: "/src/assets/img/t1.png" 
-                }
-            ]
+    props: {
+        testimonialsList: {
+            type: Array,
+            required: true
         }
     }
 }
@@ -61,7 +45,7 @@ export default {
     #TestimonialsSection {
         display: flex;
         justify-content: center;
-        padding-bottom: 8rem;
+        padding-bottom: 6rem;
 
         .about-us {
             height: 300px;

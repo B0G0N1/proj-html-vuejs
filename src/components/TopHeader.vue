@@ -1,14 +1,9 @@
 <script>
 export default {
-    data() {
-        return {
-            socialIcons: [
-                { faClass: 'fa-brands fa-square-facebook', bgColor: '#313eb1' },
-                { faClass: 'fa-brands fa-pinterest-p', bgColor: 'red' },
-                { faClass: 'fa-brands fa-twitter', bgColor: '#81ced0' },
-                { faClass: 'fa-brands fa-linkedin-in', bgColor: '#0b61cf' },
-                { faClass: 'fa-brands fa-instagram', bgColor: '#ac20ad' }
-            ]
+    props: {
+        socialIcons: {
+            type: Array,
+            required: true
         }
     }
 }
